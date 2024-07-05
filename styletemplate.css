@@ -1,0 +1,97 @@
+body{
+    margin: 1px;
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(228, 224, 219);
+    height: auto;
+}
+.top{
+    height: 100px;
+}
+.top .left,.top .right{
+    font-style: oblique;
+    padding: 0px 40px;
+    font-weight: 600;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.left{float: left;}
+.right{float: right;}
+.center{
+    height: 900px;
+    width: 100%;
+}
+.lefthalf{
+    height: 900px;
+    width: 50%;
+    float: left;
+    flex-wrap:wrap;
+    overflow: hidden;   
+}
+.righthalf{
+    height: 900px;
+    width: 50%;
+    float: right;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+img{
+    border: 1px solid rgb(7, 7, 7);
+}
+h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: xx-large;
+    padding-top: 35px;
+}
+.picture{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-align: center;
+    padding: 5px 200px;
+    font-size: medium;
+    word-spacing: 3;
+    letter-spacing:1 ;
+}
+h4{
+    text-align: center;
+    font-weight: 200;
+    font-size: x-large;
+    padding-top:3px ;
+    font-style: italic;
+}
+b{
+    text-align: center;
+    font-style: oblique;
+    display: block;
+    font-size: large;
+    padding: 3px 0px;
+}
+.one{
+    text-align: center;
+    display: block;
+    margin: 3px auto;
+    padding: 6px 0px;
+    width: 600px;
+
+}
+.two{
+    background-color: rgb(99, 98, 98);
+    color: antiquewhite;
+}
+
+
+
+
+
+
